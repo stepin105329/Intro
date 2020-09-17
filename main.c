@@ -5,7 +5,7 @@ void main()
  printf("Enter any two numbers: ");
  scanf("%d%d", &x, &y);
  maximum = max(x, y);
- printf("\nMaximum = %d\n", maximum);
+ printf("\nMaximum = %d", maximum);
  return 0;
  
 }
